@@ -49,7 +49,7 @@ while True:
         flipanimation.runner(val)
         continue
     else:
-        player = vlc.MediaPlayer("/home/anant/Downloads/alarm_clock.mp3")
+        player = vlc.MediaPlayer("alarm_clock.mp3")
         for i in range(9):
             player.play()
             time.sleep(5)
